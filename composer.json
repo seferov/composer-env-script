@@ -1,7 +1,11 @@
 {
     "name": "seferov/composer-env-script",
+    "description": "Composer script for handling gitignored env files",
+    "license": "MIT",
     "autoload": {
-        "Seferov\\ComposerEnvScript\\": "src"
+        "psr-4": {
+            "Seferov\\ComposerEnvScript\\": "src"
+        }
     },
     "require": {
         "php": "^7.4 || ^8.0",
