@@ -14,7 +14,6 @@ composer require seferov/composer-env-script
 Modify your `composer.json` file:
 ```json
 {
-  // ...
   "scripts": {
     "post-install-cmd": [
       "Seferov\\ComposerEnvScript\\ScriptHandler::buildEnv"
@@ -23,7 +22,6 @@ Modify your `composer.json` file:
       "Seferov\\ComposerEnvScript\\ScriptHandler::buildEnv"
     ]
   }
-  // ...
 }
 ```
 
@@ -34,7 +32,6 @@ changed trough composer.json extra. The configuration also allows managing multi
 
 ```json
 {
-  // ...
   "extra": {
     "seferov-env": [
       {
@@ -47,10 +44,8 @@ changed trough composer.json extra. The configuration also allows managing multi
       }
     ]
   }
-  // ...
 }
 ```
-
 
 ### Credits
 
