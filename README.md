@@ -3,6 +3,8 @@
 The package allows creating or updating ignored env file (ex: `.env.local`) based on
 a default env file (ex: `.env`) interactively. 
 
+![demo](assets/demo.gif)
+
 ----
 
 ### Installation
